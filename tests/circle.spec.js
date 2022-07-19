@@ -26,7 +26,7 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     //fail('Teste vazio!');
     // ESCREVA SEUS TESTES ABAIXO:
     // Teste se circle retorna undefined, caso o parâmetro passado não seja um número.
-    expect(circle('1')).toBeDefined();
+    expect(circle('numero')).toBeUndefined();
     // Teste se circle retorna um objeto.
     expect(circle).toMatch();
     // Teste se o objeto retornado possui 3 propriedades.
