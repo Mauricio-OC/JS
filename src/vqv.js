@@ -1,3 +1,5 @@
+/* eslint-disable no-template-curly-in-string */
+/* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 
 /*
@@ -18,6 +20,14 @@
   Caso a função seja chamada sem nenhum parâmetro, o valor undefined deve ser retornado.
 */
 
-const vqv = () => {};
+const vqv = (name, age) => {
+  if (name === undefined && age === undefined) {
+    return undefined;
+  }
+  return `Oi, meu nome é ${name}!
+Tenho ${age} anos,
+trabalho na Trybe e mando muito em programação!
+#VQV!`;
+};
 
 module.exports = vqv;
