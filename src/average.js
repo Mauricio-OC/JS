@@ -14,6 +14,10 @@
 const average = (array) => {
   let result = 0;
   if (array.length === 0) return undefined;
+  for (let index = 0; index < array.length; index + -1) {
+    const element = array[index];
+    
+  }
 };
 
 module.exports = average;
